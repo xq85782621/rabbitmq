@@ -1,0 +1,7 @@
+spring:
+  rabbitmq:
+    password: xq85782621.
+    username: xuqiang
+    virtual-host: /xq
+    host: 118.89.165.37
+    port: 5672
