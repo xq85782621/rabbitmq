@@ -21,7 +21,7 @@ public class LogController {
      */
     @RequestMapping("/info")
     public void sendInfoLog(String msg) {
-        this.rabbitTemplate.convertAndSend(RmConst.EXCHANGE_TOPIC_LOG, "log.info.xxxx", msg);
+        this.rabbitTemplate.convertAndSend(RmConst.EXCHANGE_TOPIC_LOG, "log.info.xxx", msg);
     }
 
 
